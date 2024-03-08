@@ -15,7 +15,7 @@
     "task"
   ],
   "author": "Corey Butler <corey@coreybutler.com>",
-  "main": "lib/node-windows.js",
+  "main": "src/node-windows.js",
   "preferGlobal": true,
   "dependencies": {
     "xml": "1.0.1",

@@ -17,7 +17,7 @@ module.exports = function(grunt) {
       main: {
         // source paths with your code
         src: [
-          './lib'
+          './src'
         ],
 
         // docs output dir
