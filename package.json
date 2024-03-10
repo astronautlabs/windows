@@ -2,6 +2,9 @@
   "name": "@astronautlabs/windows",
   "version": "0.0.1",
   "description": "Windows services, event logging, UAC, and utilities",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "windows",
     "service",
