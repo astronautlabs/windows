@@ -3,6 +3,8 @@
         "strict": true,
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
+        "declaration": true,
+        "sourceMap": true,
         "target": "ES2020",
         "module": "CommonJS",
         "outDir": "dist"
