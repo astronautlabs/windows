@@ -1,6 +1,6 @@
 {
   "name": "@astronautlabs/windows",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Windows services, event logging, UAC, and utilities",
   "publishConfig": {
     "access": "public"
@@ -37,5 +37,7 @@
     "url": "git://github.com/astronautlabs/windows.git"
   },
   "license": "MIT",
-  "os": ["win32"]
+  "os": [
+    "win32"
+  ]
 }
