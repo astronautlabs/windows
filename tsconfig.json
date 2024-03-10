@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "target": "ES2022",
+        "module": "CommonJS",
+        "outDir": "dist"
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}

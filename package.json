@@ -1,32 +1,37 @@
 {
-  "name": "node-windows",
-  "version": "1.0.0-beta.8",
-  "description": "Support for Windows services, event logging, UAC, and several helper methods for interacting with the OS.",
+  "name": "@astronautlabs/windows",
+  "version": "0.0.1",
+  "description": "Windows services, event logging, UAC, and utilities",
   "keywords": [
-    "ngn",
     "windows",
     "service",
     "daemon",
     "logging",
     "event",
+    "event viewer",
     "event logging",
-    "elevate",
-    "sudo",
-    "task"
+    "uac"
   ],
-  "author": "Corey Butler <corey@coreybutler.com>",
-  "main": "src/node-windows.js",
-  "preferGlobal": true,
+  "author": "Astronaut Labs, LLC, Corey Butler <corey@coreybutler.com>",
+  "main": "dist/index.js",
   "dependencies": {
-    "xml": "1.0.1",
-    "yargs": "^17.5.1"
+    "@alterior/command-line": "^3.2.0",
+    "rxjs": "^7.8.1",
+    "xml": "1.0.1"
   },
-  "readmeFilename": "README.md",
-  "scripts": {},
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@types/xml": "^1.0.11",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coreybutler/node-windows.git"
+    "url": "git://github.com/astronautlabs/windows.git"
   },
   "license": "MIT",
-  "engine": "node >= 0.10.10"
+  "os": ["win32"]
 }
